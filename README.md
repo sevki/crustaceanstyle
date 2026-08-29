@@ -1,7 +1,7 @@
-# CrustaceanStyle
+# `CrustaceanStyle`
 
 A safety-, performance-, and developer-experience-oriented coding style for Rust, inspired by
-TigerStyle.
+`TigerStyle`.
 
 The priorities are:
 
@@ -11,9 +11,9 @@ The priorities are:
 
 In that order.
 
-CrustaceanStyle is not a mechanical port of TigerStyle. Rust and Zig have different semantics, so
-the rules are adapted where ownership, borrowing, `Result`, `usize`, allocation, iterators, and
-unsafe code change the trade-offs.
+`CrustaceanStyle` is not a mechanical port of `TigerStyle`. Rust and Zig have different semantics,
+so the rules are adapted where ownership, borrowing, `Result`, `usize`, allocation, iterators,
+and unsafe code change the trade-offs.
 
 See [STYLE.md](STYLE.md) for the style guide.
 
